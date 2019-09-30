@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>~Cadastramento de Nascimento</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="InterfaceCadastro"></a>
+    <a class="links" id="TelaLogin"></a>
+     
+    <div class="content">      
+    
+      <div id="cadastro">
+        <form method="post" action="cadastronascimento.cs"> 
+          <h1>Cadastro de Nascimento</h1> 
+           
+          <p> 
+            <label for="txtNomeLivro">Nome do Livro</label>
+            <input id="txtNomeLivro" name="txtNomeLivro" required="required" type="text" placeholder="A" />
+          </p>
+           
+          <p> 
+            <label for="txtNumeroLivro">Numero do Livro</label>
+            <input id="txtNumeroLivro" name="txtNumeroLivro" required="required" type="text" placeholder="21"/> 
+          </p>
+           
+          <p> 
+            <label for="txtNumeroPagina">Numero da Pagina</label>
+            <input id="txtNumeroPagina" name="txtNumeroPagina" required="required" type="text" placeholder="ex.01"/>
+          </p>
+          <p> 
+            <label for="txtNumeroRegistro">Numero do Registro</label>
+            <input id="txtNumeroRegistro" name="txtNumeroRegistro" required="required" type="text" placeholder="ex. 078"/>
+          </p>
+          <p> 
+            <label for="txtDataRegistro">Data do Registro</label>
+            <input id="txtDataRegistro" name="txtDataRegistro" required="required" type="text" placeholder="ex. 12/04/2017"/>
+          </p>
+          <p> 
+            <label for="txtNomeRegistrado">Nome do Registrado</label>
+            <input id="txtNomeRegistrado" name="txtNomeRegistrado" required="required" type="text" placeholder="ex. Jose Siqueira"/>
+          </p>
+          <p> 
+            <label for="txtSexoRegistrado">Sexo do Registrado</label>
+            <input id="txtSexoRegistrado" name="txtSexoRegistrado" required="required" type="text" placeholder="ex. Masculino"/>
+          </p>
+          <p> 
+            <label for="txtDataNascimento">Data de Nascimento</label>
+            <input id="txtDataNascimento" name="txtDataNascimento" required="required" type="text" placeholder="ex. 25/10/1988"/>
+          </p>
+          <p> 
+            <label for="txtHoraNascimento"></label>
+            <input id="txtHoraNascimento" name="txtHoraNascimento" required="required" type="text" placeholder="ex. 07:10"/>
+          </p>
+          <p> 
+            <label for="txtNomePai">Nome do Pai</label>
+            <input id="txtNomePai" name="txtNomePai" required="required" type="text" placeholder="ex. Joao Silva"/>
+          </p>
+          <p> 
+            <label for="txtDataNascimentoPai">Data Nascimento do Pai</label>
+            <input id="txtDataNascimentoPai" name="txtDataNascimentoPai" required="required" type="text" placeholder="ex. 23/09/1970"/>
+          </p>
+          <p> 
+            <label for="txtCidadeUfPai">Cidade/Uf/Pai</label>
+            <input id="txtCidadeUfPai" name="txtCidadeUfPai" required="required" type="text" placeholder="ex. São Paulo-SP"/>
+          </p>
+          <p> 
+            <label for="txtNomeMae">Nome da Mãe</label>
+            <input id="txtNomeMae" name="txtNomeMae" required="required" type="text" placeholder="ex. Maria Lima"/>
+          </p>
+          <p> 
+            <label for="txtDataNascimentoMae">Data de Nascimento da Mãe</label>
+            <input id="txtDataNascimentoMae" name="txtDataNascimentoMae" required="required" type="text" placeholder="ex. 23/07/1980"/>
+          </p>
+          <p> 
+            <label for="txtCidadeUfMae">Cidade/Uf/Mãe</label>
+            <input id="txtCidadeUfMae" name="txtCidadeUfMae" required="required" type="text" placeholder="ex. Rio de Janeiro -RJ"/>
+          </p>
+          <p> 
+            <label for="txtNumeroDNV">Numero DNV</label>
+            <input id="txtNumeroDNV" name="txtNumeroDNV" required="required" type="text" placeholder="ex. 33-233334877"/>
+          </p>
+          <p> 
+            <label for="txtRegistronoPrazo">Registro no Prazo</label>
+            <input id="txtRegistronoPrazo" name="txtRegistronoPrazo" required="required" type="text" placeholder="sim"/>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="#paralogin"> Ir para Login </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
